@@ -1,0 +1,16 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>dunk genrator</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            var images = ['Images/1.jpg', 'Images/2.jpg', 'Images/3.jpg', 'Images/4.jpg', 'Images/5.jpg', 'Images/6.jpg', 'Images/7.jpg','Images/8.jpg', 'Images/9.jpg', 'Images/10.jpg', 'Images/11.jpg', 'Images/12.jpg', 'Images/13.jpg', 'Images/14.jpg','Images/15.jpg', 'Images/16.jpg', 'Images/17.jpg', 'Images/18.jpg', 'Images/19.jpg', 'Images/20.jpg', 'Images/21.jpg','Images/22.jpg', 'Images/23.jpg', 'Images/24.jpg', 'Images/25.jpg', 'Images/26.jpg', 'Images/27.jpg', 'Images/28.jpg','Images/29.jpg', 'Images/30.jpg', 'Images/31.jpg', 'Images/32.jpg', 'Images/33.jpg', 'Images/34.jpg', 'Images/35.jpg','Images/36.jpg'];
+            var image = images[Math.floor(Math.random() * images.length)];
+            document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + image + "')";
+            document.getElementsByTagName('body')[0].style.backgroundRepeat = "no-repeat";
+            document.getElementsByTagName('body')[0].style.backgroundSize = "cover";
+        }
+    </script>
+</head>
+<body>
+</body>
